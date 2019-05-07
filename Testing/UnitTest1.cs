@@ -6,6 +6,17 @@ namespace CurrencyCoverter.Test
     public class UnitTest1
     {
         Menu menu = new Menu();
+
+        [Fact]
+        public void Greeting_GreetingPrinted()
+        {
+            string expected = ("Welcome to Curry!");
+
+            string actual = menu.Greeting();
+
+            Assert.Equal(expected, actual);
+        }
+
         [Fact]
         public void Converter_CorrectConversionToBeProvided()
         {

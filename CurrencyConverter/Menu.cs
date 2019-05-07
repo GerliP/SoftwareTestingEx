@@ -6,6 +6,10 @@ namespace CurrencyConverter
 {
     public class Menu
     {
+        public string Greeting()
+        {
+            return "Welcome to Curry!";
+        }
         public void PrintMenu()
         {
             Console.WriteLine("Please select conversion option: ");
@@ -20,7 +24,7 @@ namespace CurrencyConverter
             int menuSelection = (int)(Console.ReadKey().KeyChar);
             return menuSelection;
         }
-
+        
         public int EnterAmount()
         {
             Console.WriteLine("\nEnter the amount you would like to convert: ");

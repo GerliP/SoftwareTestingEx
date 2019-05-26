@@ -1,10 +1,8 @@
 language: csharp
 mono: none
-dotnet: 2.2
-
-install:
-- dotnet restore
+dotnet: 2.2.104
+solution: CurrencyConverter.sln
 
 script: 
-- dotnet build
+- dotnet restore
 - dotnet test

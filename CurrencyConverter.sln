@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConverter.Test", "T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B94E21C-71B8-45F5-8B36-26DE067F20A6}"
 	ProjectSection(SolutionItems) = preProject
-		travisCI.yml = travisCI.yml
+		.travis.yml = .travis.yml
 	EndProjectSection
 EndProject
 Global

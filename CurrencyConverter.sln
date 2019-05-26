@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{0AA73101-B48A-4A13-B6EB-4696AC3E724C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Test", "Testing\CurrencyConverter.Test.csproj", "{8503C212-B606-4CC6-B112-FE38EA742598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConverter.Test", "Testing\CurrencyConverter.Test.csproj", "{8503C212-B606-4CC6-B112-FE38EA742598}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B94E21C-71B8-45F5-8B36-26DE067F20A6}"
+	ProjectSection(SolutionItems) = preProject
+		travisCI.yml = travisCI.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

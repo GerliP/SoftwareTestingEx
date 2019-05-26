@@ -26,5 +26,15 @@ namespace CurrencyCoverter.Test
 
             Assert.Equal(expected, actual, 2);
         }
+
+        [Fact]
+        public void Converter_CorrectConversionDKKtoUSD()
+        {
+            double expected = 10.5;
+
+            double actual = menu.Converter(4, 67);
+
+            Assert.Equal(expected, actual, 2);
+        }
     }
 }

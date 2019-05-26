@@ -30,7 +30,7 @@ namespace CurrencyCoverter.Test
         [Fact]
         public void Converter_CorrectConversionDKKtoUSD()
         {
-            double expected = 10.5;
+            double expected = 10.05;
 
             double actual = menu.Converter(4, 67);
 

@@ -1,3 +1,3 @@
-# SoftwareTestingEx - A simple currency converter
-Unit testing exercise for Software Testing class.
+# SoftwareTestingEx - Currency Converter
+Unit testing exercise for Software Testing class.<br/> 
 Written in C# using .NET Core 2.2
